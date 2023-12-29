@@ -18,7 +18,7 @@ jobs:
     - name: build
       run: |
         bun run build
-        touch build/.nojekyll
+        touch dist/.nojekyll
 
     - name: Upload Artifacts
       uses: actions/upload-pages-artifact@v1
